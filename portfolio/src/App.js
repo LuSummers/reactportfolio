@@ -25,17 +25,29 @@
 // export default App;
 
 import React from 'react';
-// import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
+import Header from './components/Header'
+import Home from './components/Home'
 import About from './components/About'
+import Nav from './components/Nav'
+// import Examples from './components/Examples'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 
 function App (){
+
+
   return (
     <div>
       <h1>Homepage</h1>
+      <Header></Header>
+      <Nav></Nav>
       <Home></Home>
       <About></About>
+      {/* <Examples></Examples> */}
+      <Contact></Contact>
+     <Footer></Footer>
     </div>
   )
 }
