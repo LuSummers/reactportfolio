@@ -66,7 +66,7 @@ const ExampleList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/work/${i}.jpeg`).default}
+            src={require(`../../assets/${category}/${i}.jpeg`).default}
             alt={image.name}
             // className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
