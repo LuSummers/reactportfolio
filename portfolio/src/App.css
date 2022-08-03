@@ -1,4 +1,19 @@
-.App {
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+  list-style:none;
+  text-decoration: none;
+}
+  :root{
+    --color-bg:blue;
+    
+  }
+
+
+  /* }
+}.App {
   text-align: center;
 }
 
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

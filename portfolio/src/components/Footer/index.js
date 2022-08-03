@@ -6,7 +6,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div fluid className="footer">
+    <div className="footer">
       <div>
         <div md="4" className="footer-copywright">
           <h3>Designed and Developed by Lulu Summers</h3>

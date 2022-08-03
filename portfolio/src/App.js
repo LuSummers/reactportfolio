@@ -1,55 +1,55 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
 import Nav from './components/Nav'
-// import Examples from './components/Examples'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+function App() {
+  const [categories] = useState([
+    {
+      name: 'work',
+      description: 'Examples of my work',
+    },
+    { name: 'Resume', description: 'Here is a link to my resume' },
+    // { name: 'food', description: 'Delicious delicacies' },
+    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+  ]);
 
-function App (){
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <h1>Homepage</h1>
       <Header></Header>
-      <Nav></Nav>
-      <Home></Home>
-      <About></About>
-      {/* <Examples></Examples> */}
-      <Contact></Contact>
-     <Footer></Footer>
+
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
+      <main>
+        {!contactSelected ? (
+          <>
+            <Portfolio currentCategory={currentCategory}></Portfolio>
+            <About></About>
+            <Footer></Footer>
+          </>
+        ) : (
+          <Contact></Contact>
+
+  
+
+        )}
+      </main>
     </div>
-  )
-}
+  );
+} 
 
 export default App;
