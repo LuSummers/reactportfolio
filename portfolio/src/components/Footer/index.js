@@ -9,10 +9,10 @@ function Footer() {
     <div className="footer">
       <div>
         <div md="4" className="footer-copywright">
-          <h3>Designed and Developed by Lulu Summers</h3>
+          <h5>Designed and Developed by Lulu Summers</h5>
         </div>
         <div md="4" className="footer-copywright">
-          <h3>Copyright © {year} LS</h3>
+          <h5>Copyright © {year} LS</h5>
         </div>
         <div md="4" className="footer-body">
         <ul className="footer-icons">
