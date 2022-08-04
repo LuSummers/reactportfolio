@@ -30,7 +30,26 @@ html,
 body {
   min-height: 100%;
 }
-
+#small{
+ 
+border:solid black 2px;
+  /* margin:10px 10px 10px 10px; */
+  height:200px;
+  width:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-direction: inherit;
+}
+#large{
+  height:500px;
+  width:600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 body {
   margin: 0;
   padding: 0;

@@ -67,13 +67,17 @@ console.log(category);
       )}
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
-          <img
-          src={require(`../../assets/small/${category}/${i}.jpeg`).default}
-          alt={image.name}
-          className="img-thumbnail mx-1"
-          onClick={() => toggleModal(image, i)}
-          key={image.name}
-        />
+       
+     
+<img id="small"
+ src={require(`../../assets/small/${category}/${i}.jpeg`)}
+
+alt={image.name}
+className="img-thumbnail mx-1"
+onClick={() => toggleModal(image, i)}
+key={image.name}
+/>
+     
         ))}
       </div>
     </div>
@@ -81,3 +85,15 @@ console.log(category);
 };
 
 export default ExampleList;
+
+
+
+
+// <img
+//  src={require(`../../assets/small/${category}/${i}.jpeg`)}
+
+// alt={image.name}
+// className="img-thumbnail mx-1"
+// onClick={() => toggleModal(image, i)}
+// key={image.name}
+// />
