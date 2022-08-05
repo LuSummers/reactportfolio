@@ -5,12 +5,12 @@ main {
   justify-content: center;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #5047f3;
+  --primary: #7a6c96;
+  --secondary: #6e1446;
   --tertiary: #58b104;
-  --light: #0a0909;
-  --dark: #dec5c5;
-  --darker: #878e98;
+  --dark: #1d1b1b;
+  --light: #d6b4b4;
+  --darker: #191e25;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -31,11 +31,10 @@ body {
   min-height: 100%;
 }
 #small{
- 
-border:solid black 2px;
+  border:solid black 2px;
   /* margin:10px 10px 10px 10px; */
-  height:200px;
-  width:150px;
+  height:auto;
+  width:auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,6 +60,21 @@ body {
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
+
+#social-links{
+  margin: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+}
+#social-links ul li{
+  display:inline-block;
+  margin:5px;
+  justify-content: center;
+  text-align: center;
+} 
+
 
 h1,
 h2,
@@ -172,9 +186,8 @@ li {
   list-style: none;
 }
 
-nav {
-float:right;
-}
+
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -200,6 +213,8 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  text-align: right;
+  float:right;
 }
 
 .space-between {
@@ -233,7 +248,7 @@ textarea {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
-}
+} 
 
 .px-1 {
   padding-right: var(--spacing-one);
@@ -262,10 +277,10 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: auto;
   margin-bottom: 50px;
   cursor: pointer;
-}
+} 
 
 .modalBackdrop {
   background: rgba(0, 0, 0, 0.65);
@@ -281,10 +296,16 @@ textarea {
 .modalContainer {
   background: var(--darker);
   border-radius: 5px;
-  max-width: 100%;
+  max-width: 80%;
   margin: 50px auto;
   padding: 15px;
   width: 960px;
+}
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 .modalTitle {
@@ -294,7 +315,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--secondary);
   border: 0;
   border-radius: 5px;
   color: #fff;

@@ -12,7 +12,7 @@ function About() {
   <div>
       <div id ="picture" className="portrait">
         <img
-          src={Portrait} style={{ width: "10%" }}
+          src={Portrait} style={{ width: "auto" }}
           alt="self portrait"
         />
       </div>
