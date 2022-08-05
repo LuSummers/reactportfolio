@@ -17,7 +17,11 @@ function About() {
         />
       </div>
       <div id="info">
-        <p>LOREM!</p>
+        <p>I am a hardworking and passionate Full Stack Developer with strong organizational and communication skills. 
+          I am a Medical Laboratory Scientist by day and a web developer by night. I am looking for an opportunity 
+          where I can use my creativity to help others.</p>
+          <br/>
+          <p>I am ready to help your team achieve and surpass company goals!</p>
       </div>
       </div>
     </section>

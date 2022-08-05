@@ -25,6 +25,8 @@ main {
 }
 .info{
   width: 50%;
+  justify-content: center;
+  text-align: center;
 }
 html,
 body {
@@ -313,6 +315,8 @@ textarea {
   font-weight: 600;
   margin-bottom: 25px;
 }
+
+
 
 button {
   background: var(--secondary);
