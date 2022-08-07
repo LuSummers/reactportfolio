@@ -90,12 +90,3 @@ export default ExampleList;
 
 
 
-
-// <img
-//  src={require(`../../assets/small/${category}/${i}.jpeg`)}
-
-// alt={image.name}
-// className="img-thumbnail mx-1"
-// onClick={() => toggleModal(image, i)}
-// key={image.name}
-// />

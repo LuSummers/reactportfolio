@@ -14,14 +14,22 @@ function App() {
       name: 'Portfolio',
       description: 'Recent projects',
     },
-    { name: 'Resume', description: 
-    <a
+    { name: 'Resume',
+     description: <div> <h3>Technical Skills</h3>
+  <ul><li>HTML</li>
+  <li>CSS</li>
+  <li>JAVASCRIPT</li>
+  <li>REACT</li>
+  <li>MySQL</li>
+  </ul>
+  <a
     href="portfolio/src/assets/Lu Summers resume.pdf"
     download
   >
     Click here download my resume!
-  </a> },
-  ]);
+  </a>
+</div>
+}]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 

@@ -17,19 +17,11 @@ function About() {
           alt="self portrait"
         />
       </div>
-      <div id="about">
+      <div id="About">
         <p>I am a hardworking and passionate Full Stack Developer with strong organizational and communication skills. 
           I am a Medical Laboratory Scientist by day and a web developer by night. I am looking for an opportunity 
           where I can use my creativity to help others.</p>
           <br/>
-          <ul id="skills"> Proficient Skills in:<br/>
-           <li>HTML</li>
-           <li>CSS</li>
-           <li>NodeJS</li>
-           <li>Javascript</li>
-           <li>MySQL</li>
-           <li>REACT</li>
-          </ul>
           <p>I am ready to help your team achieve and surpass company goals!</p>
       </div>
       </div>
