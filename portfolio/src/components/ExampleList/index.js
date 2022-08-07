@@ -9,43 +9,43 @@ const ExampleList = ({ category }) => {
   const [photos] = useState([
     {
       name: '0',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: '1',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Trending Music - Music lover app - one stop shop to watch music videos and search for lyrics'
     },
     {
       name: '2',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: '3',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: '4',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: '5',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: '6',
-      category: 'work',
+      category: 'Portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }

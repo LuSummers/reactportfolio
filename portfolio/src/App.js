@@ -11,12 +11,16 @@ import Footer from './components/Footer'
 function App() {
   const [categories] = useState([
     {
-      name: 'work',
-      description: 'Examples of my work',
+      name: 'Portfolio',
+      description: 'Recent projects',
     },
-    { name: 'Resume', description: 'Here is a link to my resume' },
-    // { name: 'food', description: 'Delicious delicacies' },
-    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'Resume', description: 
+    <a
+    href="portfolio/src/assets/Lu Summers resume.pdf"
+    download
+  >
+    Click here download my resume!
+  </a> },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -37,14 +41,12 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <About></About>
             <Portfolio currentCategory={currentCategory}></Portfolio>
+            <About></About>
             <Footer></Footer>
           </>
         ) : (
           <Contact></Contact>
-
-  
 
         )}
       </main>

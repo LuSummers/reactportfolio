@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Mission;
+  src: url(./assets/font/Mission-Script.otf );
+}
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -89,9 +93,15 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
 }
-
+#skills{
+  text-align: center;
+}
 h1 {
   font-size: 2.25rem;
+  color:#6e1446;
+  font-family: Mission;
+  letter-spacing: 0.2em;
+
 }
 
 h2 {
