@@ -10,46 +10,48 @@ const ExampleList = ({ category }) => {
     {
       name: '0',
       category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description:'Vinyl Collectors',
+        githublink: <a href="https://github.com/ajpicc3734/Project-2">Checkout Repostitory on Github</a>,
+        website:  <a href="https://evening-brushlands-26827.herokuapp.com/">Check out the App!</a>,
     },
     {
       name: '1',
       category: 'Portfolio',
-      description:
-        'Trending Music - Music lover app - one stop shop to watch music videos and search for lyrics'
+      description:'Trending Music App',
+        githublink: <a href="https://github.com/ajpicc3734/Group-Project">Checkout Repostitory on Github</a>,
+        website:  <a href="https://ajpicc3734.github.io/Group-Project/">Check out the App!</a>,
+
     },
     {
       name: '2',
       category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
+      description:'Budget Tracker',
+        githublink: <a href="https://github.com/LuSummers/budget-Tracker">Checkout Repostitory on Github</a>,
+        website:  <a href="https://lusbudget-tracker.herokuapp.com//">Check out the App!</a>,
+  
+      },
     {
+      /**update with new project */
       name: '3',
       category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
+      description:'Work Day Scheduler',
+        githublink: <a href="https://github.com/LuSummers/budget-Tracker">Checkout Repostitory on Github</a>,
+        website:  <a href="https://lusummers.github.io/DailyPlanner/">Check out the App!</a>,
+      },
     {
       name: '4',
       category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
+      description:'Horiseon Website',
+        githublink: <a href="https://github.com/LuSummers/Horiseon-Marketing">Checkout Repostitory on Github</a>,
+        website:  <a href="https://lusummers.github.io/Horiseon-Marketing/">Check out the Site!</a>,
+      },
     {
       name: '5',
       category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: '6',
-      category: 'Portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description:'Work Day Scheduler',
+        githublink: <a href="https://github.com/LuSummers/DailyPlanner">Checkout Repostitory on Github</a>,
+        website:  <a href="https://lusummers.github.io/DailyPlanner/">Check out the App!</a>,
     }
-   
   ]);
 
   const currentPhotos = photos.filter(photo => photo.category === category);
