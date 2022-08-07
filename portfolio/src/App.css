@@ -39,17 +39,19 @@ body {
 #small{
   border:solid black 2px;
   /* margin:10px 10px 10px 10px; */
-  height:auto;
-  width:auto;
+  height:300px;
+  width:250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   flex-direction: inherit;
+  padding:2px;
+
 }
 #large{
-  height:500px;
-  width:600px;
+  height:450px;
+  width:550px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -93,9 +95,7 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
 }
-#skills{
-  text-align: center;
-}
+
 h1 {
   font-size: 2.25rem;
   color:#6e1446;
