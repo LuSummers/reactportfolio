@@ -1,4 +1,4 @@
-# LuSummers_portfolio
+# Lu Summers React Portfolio
 
 ## Purpose
 This website showcases examples of my work. Upon selecting images in my work experience section, you will deploy the live websites. 
