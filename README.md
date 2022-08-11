@@ -11,10 +11,10 @@ This website showcases examples of my work. Upon selecting images in my work exp
 * REACT
 
 ## Website
-https://lusummers.github.io/reactportfolio/#about
-![Screenshot 2022-08-09 at 12-11-24 Portfolio](https://user-images.githubusercontent.com/100633609/183703832-69d2d2f4-7783-4939-91dc-f0e1670a5328.png)
+https://lusummers.github.io/reactportfolio/
 
 
+![Screenshot 2022-08-10 at 21-35-57 Portfolio](https://user-images.githubusercontent.com/100633609/184050465-6fbbdd68-7dea-4480-b700-8eb4b4e17c4f.png)
 
 
 ## Contribution
