@@ -32,11 +32,11 @@ const ExampleList = ({ category }) => {
       },
     {
       /**update with new project */
-      name: '3',
+        name: '3',
       category: 'Portfolio',
-      description:'Work Day Scheduler',
-        githublink: <a href="https://github.com/LuSummers/budget-Tracker">Checkout Repostitory on Github</a>,
-        website:  <a href="https://lusummers.github.io/DailyPlanner/">Check out the App!</a>,
+      description:'Vinyl Collectors - Review site (MERN) ',
+        githublink: <a href="https://github.com/ajpicc3734/Vinyl-Collectors-MERN">Checkout Repostitory on Github</a>,
+        website:  <a href="https://desolate-depths-50019.herokuapp.com/">Check out the App!</a>,
       },
     {
       name: '4',
